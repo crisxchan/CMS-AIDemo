@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* CSS reset 0 margin adnd padding*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form component */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the button with a blue background */
+.form__button {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Add style for list */
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  list-style: none;
+}
+
+.list__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.list__item {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
