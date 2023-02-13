@@ -26,5 +26,12 @@
     "LastName": "Deep",
     "PhysicalAddress": "Cebu City",
     "DeliveryAddress": "Cebu City"
+  },
+  {
+    "Id": "57ea4ad7-f77b-4f95-9a3a-e00076b163d9",
+    "FirstName": "Vincent",
+    "LastName": "Nadal",
+    "PhysicalAddress": "Pasig",
+    "DeliveryAddress": "Pasig"
   }
 ]

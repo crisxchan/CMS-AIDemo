@@ -7,10 +7,10 @@ interface Props {
 export default function ContactList({ contacts }: Props) {
   return (
     <div>
-      <h1>Contact List</h1>
-      <ul>
+      <h1 className="list__title">Contact List</h1>
+      <ul className="list">
         {contacts.map((contact) => (
-          <li key={contact.id}>
+          <li key={contact.id} className="list__item">
             {contact.firstName} {contact.lastName}
             <div>
               {contact.physicalAddress} {contact.deliveryAddress}
