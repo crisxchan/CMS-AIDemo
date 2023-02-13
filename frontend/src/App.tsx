@@ -3,7 +3,7 @@ import ContactForm from "./components/ContactForm";
 import ContactList from "./components/ContactList";
 
 function App() {
-  const [contacts, setContacts] = useState([]);
+  const [contacts] = useState([]);
 
   return (
     <div className="App">
